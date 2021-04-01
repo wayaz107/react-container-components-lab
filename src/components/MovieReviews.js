@@ -20,7 +20,7 @@ const Review = ({headline, byline, link, summary_short}) => {
 
 const MovieReviews = ({reviews}) => {
     return(
-    <div className="review">
+    <div className="review-list">
         {reviews.map(Review)}
     </div>
     )
